@@ -35,7 +35,7 @@ header img{
 	top: 0;
 	background-color: #fff;
 	padding: 15px 50px;
-
+	z-index: 10;
 }
 
 .divider{
@@ -89,6 +89,7 @@ header img{
 	background-color: #EBB94D;
 	height: 600px;
 	color: #fff;
+	margin-bottom: 50px;
 }
 
 .ask .txt-m{
@@ -139,4 +140,69 @@ header img{
 	text-align: center;
 	margin-top: 40px;
 	margin-bottom: 40px;
+}
+
+/*/////////freedom/////////////*/
+
+
+.freedom{
+	background-image: url(images/introbottom.jpg);
+	background-size: cover;
+	height: 560px;
+	position: relative;
+}
+
+.txt-box{
+	width: 860px;
+	max-width: calc(100%-40px);
+	margin: 0 auto;
+	position: relative;
+	z-index: 9;
+}
+
+.txt-box::before, .txt-box::after{
+	content: '';
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+.txt-box::before{
+	border-top: 4px solid #EAB857;
+	border-left: 4px solid #EAB857;
+	top: 0;
+	left: 0;
+}
+
+.txt-box::after{
+	border-right: 4px solid #EAB857;
+	border-bottom: 4px solid #EAB857;
+	bottom: 0;
+	right: 0;
+}
+
+.freedom .txt-box .txt-l{
+	padding: 30px 0 30px 0;
+}
+.underline{
+	background: linear-gradient(transparent 70%, #EBB94D 50%);
+	font-weight: 600;
+}
+.about-btn{
+	color: #fff;
+	background-color: #EAB857;
+	height:80px;
+	width:80px;
+	border-radius:50%;
+	position: absolute;
+	bottom: -40px;
+	right: 0;
+	left: 0;
+	margin:0 auto;
+}
+
+.about-btn p{
+	line-height: 80px;
 }
