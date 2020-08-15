@@ -3,6 +3,12 @@ body{
 	color: #333;
 }
 
+p, h1, h2{
+	text-align: center;
+	margin: 0;
+
+}
+
 .txt-l{
 	font-size: 28px;
 	font-weight: 600;
@@ -84,25 +90,53 @@ header img{
 	height: 600px;
 	color: #fff;
 }
+
+.ask .txt-m{
+	padding-top: 40px;
+}
+
+.ask-point{
+	background-color: #F9F2F4;
+	border-radius: 3px;
+	color: #C7254E;
+	width: 420px;
+	margin:0 auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	font-weight: 600;
+
+}
+
 .btn2{
-	width: 318px;
-	height: 44px;
+	width: 80%;
+	height: 104px;
 	border: 1px solid #D86C67;
 	background-color: #D86C67;
-	border-radius: 25px;
+	border-radius: 50px;
 	text-align: center;
-	display: inline-block;
-	margin-right: 70px;
+    margin: 0 auto;
+    margin-bottom: 60px;
 }
 .btn2 a{
 	text-decoration: none;
 	color: #fff;
-	font-size: 14px;
+	font-size: 28px;
 	display: block;
 	height: 100%;
-	padding-top: 10px;
+	line-height: 104px;
 }
 
 .btn2:hover{
 	background-color: #D84940;
+}
+
+.ask h2{
+	font-size: 21px;
+	margin-top: 30px;
+}
+
+.sns{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
