@@ -284,3 +284,16 @@ header img{
 	box-sizing: border-box;
 	
 }
+
+.about-second-txt2{
+	background-color: #EBB94D;
+	border-radius: 3px;
+	color: #fff;
+	letter-spacing: 3px;
+}
+
+.about-second-txt3{
+	margin-top: 30px;
+	font-size: 14px;
+	font-weight: bold;
+}
