@@ -183,7 +183,7 @@ header img{
 	right: 0;
 }
 
-.freedom .txt-box .txt-l{
+.txt-box .txt-l{
 	padding: 30px 0 30px 0;
 }
 .underline{
@@ -205,4 +205,82 @@ header img{
 
 .about-btn p{
 	line-height: 80px;
+}
+
+.about{
+	background-color: #FEF5E0;
+	padding-top: 40px;
+	height: 570px;
+}
+.about .txt-m{
+	font-weight: 600;
+	margin-bottom: 35px;
+}
+
+.flex{
+	display: flex;
+	justify-content: center;
+}
+
+.about-box{
+	margin: 30px;
+	padding: 20px;
+	border: 2px solid #EAB857;
+	border-radius: 3px;
+	background-color: #fff;
+	height: 230px
+}
+
+.picture-box{
+	text-align: center;
+	width: 155px;
+	height: 135px;
+}
+
+.picture-box p{
+	font-size:12px;
+	margin: 10px
+}
+
+/*//////about-second/////////////*/
+
+.about-second{
+	background-image: url(images/aboutsecondbg.jpg);
+	height: 450px;
+	background-size: cover;
+}
+
+.about-second h1{
+	color: #fff;
+	font-weight: 100;
+	padding-top: 50px;
+
+}
+.about-second h2{
+	color: #fff;
+	font-weight: 100;
+	font-size: 20px;
+	line-height: 60px;
+}
+
+.about-second-txt{
+	color: #EBB94D;
+}
+
+
+.about-second-flex{
+	display: flex;
+	justify-content: center;
+}
+
+.about-second-step{
+	width: 30%;
+	background-color: #fff;
+	height: 170px;
+	margin-right: 15px;
+	margin-top: 15px;
+	border-radius: 3px;
+	padding: 30px 30px 20px;
+	box-sizing: border-box;
+	
 }
