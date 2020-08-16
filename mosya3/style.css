@@ -9,6 +9,10 @@ p, h1, h2{
 
 }
 
+.text-bold{
+	font-weight: bold;
+}
+
 .txt-l{
 	font-size: 28px;
 	font-weight: 600;
@@ -296,4 +300,31 @@ header img{
 	margin-top: 30px;
 	font-size: 14px;
 	font-weight: bold;
+}
+
+.skillup{
+	background-color: #1D6EA9;
+}
+
+.skillup h2{
+	color: #fff;
+	padding-top:40px;
+	padding-bottom:40px;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+/*lerning-box*/
+
+.lerning{
+	padding: 45px 0;
+}
+
+.lerning-box{
+	margin: 45px 0;
+}
+
+.lerning-box img{
+	margin-right: 15px;
+	padding: 0 15px;
 }
