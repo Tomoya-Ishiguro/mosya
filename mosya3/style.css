@@ -9,6 +9,10 @@ p, h1, h2{
 
 }
 
+.text-bold{
+	font-weight: bold;
+}
+
 .txt-l{
 	font-size: 28px;
 	font-weight: 600;
@@ -296,4 +300,60 @@ header img{
 	margin-top: 30px;
 	font-size: 14px;
 	font-weight: bold;
+}
+
+.skillup{
+	background-color: #1D6EA9;
+}
+
+.skillup h2{
+	color: #fff;
+	padding-top:40px;
+	padding-bottom:40px;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+/*lerning-box*/
+
+.lerning{
+	padding: 45px 0;
+}
+
+.lerning-box{
+	margin: 45px 0;
+}
+
+.lerning-box img{
+	margin-right: 15px;
+	padding: 0 15px;
+}
+
+
+/*/////////merit////////*/
+
+
+.merit{
+	background-color: #FEF5E0;
+	padding-top: 30px;
+	height: 930px;
+	text-align: center;
+}
+
+.merit h2{
+	color: #EBB94D;
+	margin-bottom: 15px;
+	text-align: left;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+
+.merit > .txt-box .txt-l {
+	padding: 15px 0;
+}
+
+.merit-box{
+	width: 28%;
+	margin: 0 15px;
 }
