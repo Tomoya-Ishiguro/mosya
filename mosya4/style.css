@@ -1,6 +1,9 @@
 *{
 box-sizing: border-box;
 }
+body{
+	margin: 0;
+}
 
 
 .container{
@@ -82,6 +85,10 @@ top-wrapper p{
 	text-align: center;
 }
 
+.btn:hover {
+  opacity: 1;
+}
+
 a{
 	text-decoration: none;
 }
@@ -137,4 +144,31 @@ a{
 	margin-top: 15px;
 	font-size: 13px;
 	display: inline-block;
+}
+
+.message-wrapper{
+	padding-bottom: 80px;
+	text-align: center;
+}
+
+.message{
+	background-color: #5dca88;
+	cursor:pointer;
+	padding: 15px 40px;
+	box-shadow: 0px 10px #1a7940
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img{
+	width: 125px;
+}
+
+footer p{
+	color: #b3aeb5;
+	font-size: 12px;
 }
