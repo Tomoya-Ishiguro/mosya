@@ -1,0 +1,49 @@
+*{
+box-sizing: border-box;
+}
+
+
+.container{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+header{
+	height: 65px;
+	width: 100%;
+	background-color: #313A42;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+}
+
+.header-left{
+	float: left;
+}
+
+.header-right{
+	float: right;
+	margin-right: -25px;
+}
+
+.header-right a {
+	line-height: 65px;
+	padding: 0 25px;
+	color: white;
+	float: left;
+	display: block;
+	transition: all 0.5s;
+}
+.logo{
+	width: 124px;
+	margin-top: 20px;
+}
+.top-wrapper{
+	background-image: url("images/top.png");
+	padding: 180px 0 100px 0;
+	-webkit-background-size: cover;
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
