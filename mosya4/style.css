@@ -4,7 +4,9 @@ box-sizing: border-box;
 body{
 	margin: 0;
 }
-
+.clear{
+	clear:left;
+}
 
 .container{
 	width: 100%;
@@ -110,7 +112,6 @@ a{
 }
 
 .lesson-wrapper{
-	height: 500px;
 	padding-bottom: 80px;
 	padding-left: 5%;
 	padding-right: 5%;
