@@ -9,6 +9,7 @@ body{
 }
 
 .container{
+	max-width: 1170px;
 	width: 100%;
 	margin: 0 auto;
 	padding: 0 15px;
@@ -30,6 +31,15 @@ header{
 .header-right{
 	float: right;
 	margin-right: -25px;
+}
+
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
 }
 
 .header-right a {
