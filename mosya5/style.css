@@ -101,66 +101,25 @@ input, select {
 	    vertical-align:middle;
 }
 
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~リセット~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 
 body{
-	font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
-	line-height: 1.8;
 	font-size: 15px;
-
+    font-family: Georgia, '游明朝', YuMincho, 'Hiragino Mincho ProN', Meiryo, serif;
+    line-height: 1.8;
 }
 
 a{
 	text-decoration: none;
 }
 
+
 header{
-	height: 150px;
+	height: 152px;
 	margin-top: 50px;
+	width: 100%;
 }
-.logo{
-	margin-top: 8px;
-	line-height: 40px;
-	margin-bottom: -20px;
-}
-
-
-.header-left{
-	float:left;
-}
-
-
-.header-right li{
-	float: left;
-	margin-right: 32px;
-	padding-top: 50px;
-	position: relative;
-}
-
-.header-right li ul{
-	position: absolute;
-	top: 65px;
-	left: -73px;
-	height: 0px
-}
-
-.header-right li li{
-	width: 100px;
-	border: 1px solid #e6e6e6;
-	padding: 10px 20px;
-	visibility: hidden;
-}
-
-.header-right li:hover ul li{
-	visibility: visible;
-}
-
-.header-right li a{
-	display: block;
-	padding-bottom: 15px;
-}
-
 
 .container{
 	width: 1040px;
@@ -169,8 +128,67 @@ header{
 
 ul{
 	list-style: none;
+}
+
+.header-left{
+	float: left;
+}
+
+.header-right{
+	padding-top: 82px;
 	float: right;
 }
+
+.gnav li{
+	float: left;
+	font-size: 17px;
+	padding: 0 15px;
+	position: relative;
+}
+
+.gnav li:hover ul li{
+	visibility: visible;
+}
+
+.gnav li a{
+	display: block;
+}
+
+.gnav li ul{
+	position: absolute;
+	top: 45px;
+	left: -5px;
+	height: 0;
+	visibility: hidden;
+}
+
+.gnav li li{
+	width: 200px;
+	border:solid 1px #e6e6e6;
+	padding: 10px 20px;
+	box-shadow: 0.5px 0.5px #f0f0f0;
+}
+
 .fas{
 	margin-left: 15px;
 }
+
+.header-left h1{
+	font-size: 36px;
+	line-height: 48px;
+}
+
+.header-left p{
+	font-size: 18px;
+	margin-top: -10px;
+}
+
+
+
+
+
+
+
+
+
+
