@@ -148,10 +148,17 @@ ul{
 
 .gnav li:hover ul li{
 	visibility: visible;
+	opacity: 1;
+	transition: 0.3s;
 }
 
 .gnav li a{
 	display: block;
+	padding-bottom: 15px;
+}
+
+.gnav li a:hover{
+	color: #c49029;
 }
 
 .gnav li ul{
@@ -165,8 +172,9 @@ ul{
 .gnav li li{
 	width: 200px;
 	border:solid 1px #e6e6e6;
-	padding: 10px 20px;
+	padding: 10px 20px 0 20px;
 	box-shadow: 0.5px 0.5px #f0f0f0;
+	opacity: 0;
 }
 
 .fas{
