@@ -242,3 +242,42 @@ ul{
 .main-wrapper{
 	height: 1440px;
 }
+
+.date{
+	float: left;
+	margin-right: 220px;
+	font-size: 16.8px;
+	color: #7777;
+	padding-top: 10px;
+	opacity: 0.5;
+}
+
+.date:hover{
+	opacity: 1;
+}
+
+.text-area{
+	width: 700px;
+	display: inline-block;
+}
+
+.text-box{
+	padding-bottom: 60px;
+}
+
+.text-heading{
+	color: #111;
+	font-size: 22.4px;
+	padding-bottom: 20px;
+}
+
+.text-heading a:hover{
+	color: #C49029;
+
+}
+
+
+.text{
+	font-size: 16.8px;
+	color: #666;
+}
