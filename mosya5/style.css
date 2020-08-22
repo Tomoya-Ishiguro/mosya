@@ -228,5 +228,17 @@ ul{
 	cursor: text;
 }
 
+.top-wrapper{
+	height: 780px;
+}
+
+.top-wrapper p{
+	font-size: 27px;
+	color: #7777;
+	padding-top: 90px;
+}
 
 
+.main-wrapper{
+	height: 1440px;
+}
