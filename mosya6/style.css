@@ -1,0 +1,50 @@
+*{
+	box-sizing: border-box;
+}
+
+
+.l-header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.l-header .m-sitelogo{
+	float: left;
+	margin-top: 50px;
+	margin-left: 7%;
+}
+
+.m-sitelogo a{
+	display: block;
+	background: url(img/icon.png);
+	width: 266px;
+	height: 72px;
+	background-size: 266px 72px;
+	white-space: nowrap;
+	text-indent: 100%;
+	overflow: hidden;
+}
+
+a{
+	text-decoration: none;
+}
+
+.l-header .m-navigation{
+	float: right;
+	margin-top: 75px;
+	margin-right: 7%;
+}
+
+.m-navigation ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.m-navigation li{
+	display: inline-block;
+	margin-left: 40px;
+}
