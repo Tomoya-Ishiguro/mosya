@@ -1,1 +1,4 @@
-$('.slider').slick();
+$('.slider').slick({
+	dots: true,
+	autoplay: true
+});
