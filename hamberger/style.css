@@ -1,0 +1,34 @@
+body{
+	margin: 0;
+	font-size: 2rem;
+	min-height: 100vh;
+	background-color: #fbdb65;
+	display: flex;
+}
+
+main{
+	width: 700px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+aside {
+	width: 25%;
+	min-width: 250px;
+	display: flex;
+	flex-direction: column;
+	background-color: blue;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	background-color: pink;
+}
+
+div{
+	margin-top: auto;
+	height: 300px;
+	background-color: red;
+}
