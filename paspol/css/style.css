@@ -62,7 +62,7 @@ body {
 	.l-header h1 a:before{
 		content: '';
 		display: inline-block;
-		background-image: url("images/siteLogo-small@2x.png");
+		background-image: url("../images/siteLogo-small@2x.png");
 		width: 66px;
 		height: 66px;
 		margin-right: 15px;
@@ -127,7 +127,7 @@ body {
 			background-color: rgba(0,0,0,.7);
 		}
 		.globalnav{
-			/*display: none;*/
+			display: none;
 		}
 		nav ul li a {
 			width: 100%;
@@ -138,5 +138,20 @@ body {
 			border-bottom: 1px solid #fff;
 		}
 	}
+		.logo-sp img{
+			display: none;
+		}
+
+		@media (max-width: 767px) {
+			.logo-sp {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.logo-sp img {
+				display: block;
+			}
+		}
+
 
 
