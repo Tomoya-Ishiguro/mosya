@@ -359,3 +359,21 @@ article h2{
 		transition: 0.4s all;
 	}
 }
+
+	.back-top img{
+		margin-top: -25px;
+		width: 50px;
+		height: auto;
+	}
+
+	.share{
+		background-color: #fff;
+		width: 100%;
+		text-align: center;
+	}
+
+	.sharebtn{
+		width: 100%;
+		height: auto;
+		padding-bottom: 18px;
+	}
