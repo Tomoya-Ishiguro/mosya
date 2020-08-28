@@ -331,5 +331,49 @@ article h2{
 
 
 @media (max-width: 767px) {
-	
+	.btn-center{
+		text-align: center;
+	}
+	.btn-sp{
+		width: 162px;
+		height: 46px;
+		display: inline-block;
+		border: solid 1px ;
+		background: url(../images/button-arrow@2x.png) no-repeat;
+		background-size: 8px 12px;
+		background-position: 140px 50%;
+	}
+	.btn-sp a{
+		display: block;
+		text-decoration: none;
+		font-family: "Gill Sans Std Book", sans-serif;
+		font-size: 13px;
+		color: black;
+		font-weight: normal;
+		padding: 17px;
+		text-align: center;
+	}
+	.btn-sp a:hover{
+		color: #fff;
+		background-color: black;
+		transition: 0.4s all;
+	}
 }
+
+	.back-top img{
+		margin-top: -25px;
+		width: 50px;
+		height: auto;
+	}
+
+	.share{
+		background-color: #fff;
+		width: 100%;
+		text-align: center;
+	}
+
+	.sharebtn{
+		width: 100%;
+		height: auto;
+		padding-bottom: 18px;
+	}
