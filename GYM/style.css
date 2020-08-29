@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+	padding: 25px 30px;
+}
+
+.logo{
+	padding-top: 5px;
+	padding-left: 5px;
+	font-family: Dibot;
+	background-color: tomato;
+}
+
+.information{
+	padding-top: 5px;
+	padding-right: 7px;
+	background-color: orange;
+}
+
+.information h3, .title h2{
+	color: pink;
+	font-weight: 520;
+}
+
+.fruid{
+	background-color: green;
+}
+
+.diagonal{
+	transform: rotate(-5deg);
+	opacity: 0.1;
+	font-family: Quickpen;
+	position: absolute;
+	left: 85px;
+}
+
+.title{
+	position: absolute;
+	top: 30px;
+	left: 10%;
+}
+
+.title h1{
+	font-size: 78px;
+	color: orange;
+	background: -webkit-linear-gradient(0deg, #f6c316, #FF8C00, #f74d95);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.title p{
+	font-size: 18px;
+}
+
+.title h3{
+	font-size: 28px;
+	color: pink;
+	width: 450px;
+}
