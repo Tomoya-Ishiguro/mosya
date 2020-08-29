@@ -11,5 +11,14 @@ $(function() {
 			animationLoop: true
 		});
 
+	$('#page-top').click(function(){
+		$('html,body').animate({scrollTop:0},500, 'swing');
+		return false;
+	});
+
+	$('#slidemenu-btn').on('click', function(){
+		$('.globalnav').slideToggle();
+	});
+
 	});
 });
