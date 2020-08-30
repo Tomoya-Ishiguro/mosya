@@ -12,13 +12,13 @@ header{
 	padding-top: 5px;
 	padding-left: 5px;
 	font-family: Dibot;
-	background-color: tomato;
+	
 }
 
 .information{
 	padding-top: 5px;
 	padding-right: 7px;
-	background-color: orange;
+	
 }
 
 .information h3, .title h2{
@@ -128,4 +128,43 @@ header{
 	color: #f74d95;
 	transform: rotate(-5deg);
 	font-family: Quickpen;
+	z-index: 5;
+}
+
+.why{
+	background-color: #bab3b2ff;
+	position: absolute;
+	top: 90%;
+	padding: 3% 5%;
+	color: #5d5d5d;
+}
+
+.why h3{
+	font-weight: 600;
+	font-size: 30px;
+	letter-spacing: 0.1em;
+}
+
+.method{
+	position: relative;
+}
+
+.method p{
+	position: absolute;
+	font-size: 20px;
+	top:50%;
+	left: 50%;
+	line-height: 1.3;
+	color: white;
+	-webkit-transform: translate(-50%,-50%);
+	   -moz-transform: translate(-50%,-50%);
+	    -ms-transform: translate(-50%,-50%);
+	     -o-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
+}
+
+
+.method p span{
+	font-size: 28px;
+	font-weight: bold;
 }
