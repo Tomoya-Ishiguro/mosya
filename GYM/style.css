@@ -61,3 +61,71 @@ header{
 	color: pink;
 	width: 450px;
 }
+.title h3 span, .satisfication h4{
+	font-size: 45px;
+}
+.detail-text{
+	width: 418px;
+}
+
+.detail-text h3{
+	width: 100%;
+	-ms-text-align-last: justify;
+	text-align-last: justify;
+	font-style: italic;
+}
+
+.counseling{
+	width: 100%;
+	color: white;
+	font-weight: bold;
+	letter-spacing: 0.3em;
+	background: -webkit-linear-gradient(0deg, #f6c316, #ff8c00, #f74d95);
+	padding: 2% 10%;
+}
+
+.satisfication{
+	background-color: #f74d95;
+	color: white;
+	width: 130px;
+	height: 130px;
+}
+.satisfication h4{
+	text-align: center;
+	position: relative;
+	font-size: 28px;
+	top: 20%;
+	line-height: 0.9;
+}
+
+.satisfication h4 span{
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.model-detail{
+	margin-right: 18%;
+}
+.model{
+	height: 700px;
+}
+
+.model-detail p{
+	position: absolute;
+	right: 10%;
+	top: 30%;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	color: #f74d95;
+	font-size: 18px;
+	transform: rotate(5deg);
+	font-family: FOT-マティス ProN;
+}
+.why-eyp{
+	position: absolute;
+	bottom: 15%;
+	left: 45%;
+	color: #f74d95;
+	transform: rotate(-5deg);
+	font-family: Quickpen;
+}
