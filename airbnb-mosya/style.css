@@ -1,0 +1,102 @@
+header{
+	height: 90px;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+}
+.nav{
+	padding: 30px;
+	margin-left: 60px;
+}
+.nav a{
+	margin: 10px;
+	color: black;
+}
+.nav i{
+	color: #008489;
+}
+.nav a:hover{
+	color: black;
+	border-bottom: 1px solid black;
+}
+.start{
+	background: white;
+	border:1px solid white;
+	border-radius: 5px;
+	width: 450px;
+	height: 450px;
+}
+.start-in{
+	margin: 25px;
+}
+.start h2{
+	font-size: 37px;
+	font-weight: bold;
+}
+.start p{
+	margin-top: 10px;
+	opacity: 0.8;
+}
+.start input{
+	width: 400px;
+	height: 50px;
+	border-radius: 5px;
+}
+.body-1 img{
+	position: relative;
+}
+.start{
+	position: absolute;
+	top: 150px;
+	right: 120px;
+}
+.select1,.select2{
+	background: white;
+	margin: 10px 10px 10px 0;
+}
+
+.select1{
+	width: 250px;
+	height: 50px;
+}
+
+.select2{
+	width: 120px;
+	height: 50px;
+}
+.number{
+  font-size: 35px;
+  font-weight: bold;
+}
+.des{
+	font-size: 15px;
+}
+.start2 button {
+	width: 400px;
+	height: 50px;
+	background: red;
+	color: white;
+	border-radius: 5px;
+}
+
+.estimate {
+	padding:30px;
+	margin-right: 40px;
+}
+.estimate span,button{
+  margin: 5px;
+}
+.one{
+	font-size: 12px;
+}
+.two{
+	font-size: 25px;
+	font-weight: bold;
+}
+.estimate button{
+	padding: 10px;
+	background: red;
+	color: white;
+	border-radius: 5px;
+}
