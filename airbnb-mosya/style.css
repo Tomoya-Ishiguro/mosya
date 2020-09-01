@@ -150,3 +150,13 @@ header{
 	color: #008489;
 }
 
+.body-4 img{
+	margin-left: 12%;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.body-5{
+	margin-bottom: 100px;
+}
