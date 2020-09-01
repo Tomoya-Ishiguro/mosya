@@ -100,3 +100,53 @@ header{
 	color: white;
 	border-radius: 5px;
 }
+.title{
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	margin-bottom: 60px;
+}
+
+.bord{
+	width: 64px;
+	border: 1px solid #767676;
+	margin: 60px auto 20px;
+}
+
+.pic{
+	margin: 20px;
+}
+.step h3{
+	font-size: 24px;
+	font-weight: 800;
+	line-height: 1.25em;
+	color: #484848;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.step p {
+	color: #484848;
+}
+
+.step a {
+	color: #008489;
+}
+#hiko{
+	font-weight: normal;
+	color: #484848;
+	font-size: 15px;
+}
+.card3{
+	margin: 0 auto;
+}
+.card3 h3{
+	margin-left: 20px;
+}
+.step2 p {
+	color: #484848;
+	margin: 10px 0;
+}
+.step2 a{
+	color: #008489;
+}
+
