@@ -160,3 +160,124 @@ header{
 .body-5{
 	margin-bottom: 100px;
 }
+
+.body-6-con{
+	margin-top: 50px;
+}
+
+.body-6-con i{
+	font-size: 50px;
+	color: orange;
+}
+.body-6-con h3{
+	font-size: 30px;
+	margin: 20px 0;
+	color: #484848;
+}
+.body-7 h3{
+	font-size: 60px;
+	text-align: center;
+	color: #484848;
+}
+.body-7 p{
+	text-align: center;
+	color: #484848;
+}
+.body-7{
+	margin-top: 80px;
+}
+.body-8{
+	margin-top: 80px;
+}
+.body-9{
+	margin-top: 80px;
+}
+.border2{
+	border-bottom: 1px solid gray;
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+.body-9 p{
+	font-size: 17px;
+}
+.body-9 a{
+	color: #008489;
+}
+.body-10 h3{
+	font-size: 18px;
+}
+.body-10 p{
+	font-size: 15px;
+	margin: 0;
+}
+.body-10 a{
+	color: #008489
+}
+.body-10 h2{
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 18%;
+}
+.body-11 img{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 30px;
+}
+
+.body-11{
+	position: relative;
+}
+.body-11-2{
+	position: absolute;
+	top: 150px;
+	left: 300px;
+}
+.body-11-2 h2{
+	font-size: 60px;
+	font-weight: bold;
+	color: white;
+}
+
+.body-11-2 button{
+	padding: 10px 20px 10px 20px;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+.body-12{
+	display: flex;
+	justify-content: center;
+}
+
+.body-12 div{
+	margin: 50px;
+}
+
+.body-12 h4{
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+.body-12 p{
+	font-size: 12px;
+	margin: 3px;
+	opacity: 0.7;
+}
+.body-12 span{
+	background: #007a87;
+	color: white;
+	display: inline-block;
+	width: 30px;
+	text-align: center;
+	border-radius: 3px;
+}
+.border3{
+	border-bottom: 1px solid gray;
+	margin-top: 60px;
+}
+footer{
+	margin-left: 20%;
+}
+.border4{
+	width: 70%;
+	border-bottom: 1px solid gray;
+	margin: 30px auto;
+}
