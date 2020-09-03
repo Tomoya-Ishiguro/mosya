@@ -66,8 +66,8 @@ header{
 	height: 50px;
 }
 .number{
-  font-size: 35px;
-  font-weight: bold;
+	font-size: 35px;
+	font-weight: bold;
 }
 .des{
 	font-size: 15px;
@@ -85,7 +85,7 @@ header{
 	margin-right: 40px;
 }
 .estimate span,button{
-  margin: 5px;
+	margin: 5px;
 }
 .one{
 	font-size: 12px;
@@ -280,4 +280,115 @@ footer{
 	width: 70%;
 	border-bottom: 1px solid gray;
 	margin: 30px auto;
+}
+
+@media screen and (max-width: 800px){
+	.estimate{
+		display: none;
+	}
+	header{
+		height: 0;
+	}
+	.body-1 img{
+		width: 100%;
+		height: auto;
+	}
+	.nav i{
+		float: left;
+	}
+	nav i{
+		position: absolute;
+	}
+	.start{
+		background: none;
+		border: none;
+		border-radius: 5px;
+		width: 100%;
+		height: auto;
+	}
+	.start-in{
+		margin: 0px;
+	}
+	.start h2{
+		font-size: 37px;
+		font-weight: normal;
+		text-align: left;
+		position: absolute;
+		color: white;
+		top:140px;
+		left: 20px;
+	}
+	.start p{
+		margin-top: 20px;
+		opacity: 0.8;
+		text-align: center;
+		font-size: 17px;
+		font-weight: bold;
+	}
+	.start input{
+		width: 100%;
+		height: auto;
+		border-radius: 5px;
+	}
+	.body-1 img{
+		position: relative;
+	}
+	.start{
+		position: static;
+		top: 0;
+		right: 0;
+	}
+	.select1{
+		width: 80%;
+		margin-right: 10%;
+		margin-left: 10%;
+	}
+	.select2{
+		width: 80%;
+		margin-right: 10%;
+		margin-left: 10%;
+	}
+	.start-in input{
+		width: 80%;
+		margin-right: 10%;
+		margin-left: 10%;
+		height: 50px;
+	}
+	.start2 button{
+		width: 90%;
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+	.start2 p {
+		text-align: left;
+		margin-left: 5%;
+	}
+	.body-2,.body-3,.body-4,.body-5,.body-7,.body-8,.border3,.body-12{
+		display: none;
+	}
+	.body-6 img{
+		width: 96%;
+		margin-top: 50px;
+		margin-right: 2%;
+		margin-left: 7%;
+	}
+	.body-6-con i{
+		font-size: 20px;
+		text-align: left;
+		/*margin-top: 0;*/
+	}
+	.body-6-con h3{
+		font-size: 20px;
+		text-align: left;
+	}
+	.body-6-con p{
+		font-size: 15px;
+		text-align: left;
+	}
+	.body-6-con{
+		margin-left: 7%;
+		margin-top: 8px;
+	}
+	.body
+
 }
