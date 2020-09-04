@@ -41,3 +41,24 @@ header {
 	padding-top: 20px;
 	margin-top: 16px;
 }
+
+#header-right_pc{
+	float: right;
+	width: 260px;
+	background-color: red;
+	border-radius: 50px;
+	font-size: 1.4rem;
+	margin: 15px 0 10px;
+	text-align: center;
+}
+
+#header-right, .pc:hover{
+	background-color: pink;
+}
+
+#header-right, .pc a{
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	padding: 15px 0;
+}
