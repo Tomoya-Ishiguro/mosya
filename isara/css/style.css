@@ -5,9 +5,9 @@
 }
 
 html {
-  font-size: 62.5%;
-  font-family: 'メイリオ', Meiryo,sans-serif;
-  color: #333;
+	font-size: 62.5%;
+	font-family: 'メイリオ', Meiryo,sans-serif;
+	color: #333;
 }
 
 header {
@@ -42,7 +42,7 @@ header {
 	margin-top: 16px;
 }
 
-#header-right_pc{
+#header_right_pc{
 	float: right;
 	width: 260px;
 	background-color: red;
@@ -50,15 +50,52 @@ header {
 	font-size: 1.4rem;
 	margin: 15px 0 10px;
 	text-align: center;
+	max-width: 320px;
+	min-width: 262px;
+
 }
 
-#header-right, .pc:hover{
+#header_right_pc:hover{
 	background-color: pink;
 }
 
-#header-right, .pc a{
+#header_right_pc a{
 	display: inline-block;
 	color: #fff;
 	text-decoration: none;
 	padding: 15px 0;
+}
+
+
+@media (max-width: 767px) {
+	.pc {
+		display: none;
+	}
+	header {
+		width: 100%;
+		height: 62px;
+		clear: both;
+	}
+	#header-inner {
+		width: 100%;
+		position: relative;
+		/*background-color:blue;*/
+	}
+	#header-title{
+		float: left;
+		width: 196px;
+		height: 44px;
+		color: #333;
+		font-size: 11px;
+		font-weight: 900;
+		letter-spacing: 0.5px;
+
+		background-image: url(../images/isaralogo.png);
+		background-repeat: no-repeat;
+		background-size: 90px 30px;
+		background-position: bottom left;
+		padding: 0;
+		margin-top: 10px;
+		margin-left: 7px;
+	}
 }
