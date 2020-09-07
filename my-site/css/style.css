@@ -95,7 +95,7 @@ li {
 }
 
 .section:nth-of-type(odd) {
-  background-color: #f7f7f7;
+  background-color: rgb(159, 214, 194);
 }
 
 .inner {
