@@ -144,7 +144,7 @@ li {
   left: 0;
   z-index: 100;
   width: 100%;
-  background-color: #fff;
+  background-color: rgb(220, 198, 173);
   -webkit-box-shadow: 0 3px 3px -3px rgba(0, 0, 0, .2);
   -moz-box-shadow: 0 3px 3px -3px rgba(0, 0, 0, .2);
   box-shadow: 0 3px 3px -3px rgba(0, 0, 0, .2);
